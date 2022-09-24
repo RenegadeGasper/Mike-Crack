@@ -85,6 +85,7 @@ span{
     transition: bottom 1s, left;
 
 }
+<<<<<<< Updated upstream:Brian-Portion/style.css
 
 .flex{
     display: flex;
@@ -93,3 +94,14 @@ span{
 
 }
 
+=======
+.image img{
+    height: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s; left 1s;
+}
+
+.images:hover .
+>>>>>>> Stashed changes:Brian's Portion/style.css

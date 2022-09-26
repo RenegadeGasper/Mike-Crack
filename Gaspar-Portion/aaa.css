@@ -11,7 +11,7 @@ h1
     padding: 20px;
     border-bottom:#333 solid 2px;
     margin-bottom: 0;
-    width: 70%;
+    width: 80%;
     left: 0;
     right: 0;
     margin: auto
@@ -20,6 +20,13 @@ h1
 .navi {
     overflow: hidden;
     background-color: rgb(66, 103, 112);
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    
+    left: 0;
+    right: 0;
+    margin: auto
   } 
   
   .navi a {
@@ -33,6 +40,8 @@ h1
 
 
   .flex-container {
+    display: flex;
     flex-direction: column;
     width: 50%;
+    
   }

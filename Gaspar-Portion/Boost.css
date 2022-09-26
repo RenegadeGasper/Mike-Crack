@@ -1,0 +1,32 @@
+#b-button {
+    background-color: var(--red);
+    border-radius: 15px;
+    color: white;
+    padding: 0.5rem;
+}
+
+#b-button * {
+    color: white;
+}
+
+#b-container {
+    width: 80%;
+    display: flex;
+    margin: 4rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+#b {
+    background-color: var(--red);
+    color: white;
+    font-size: xx-large;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#b-container iframe {
+    display: none;
+    margin: 0 auto;
+}

@@ -7,22 +7,28 @@
     <link rel="stylesheet" href="style-josan.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div class="container  border">
+    
+    <audio id="auto" loop src="song.mp3">
+        <source src="song.mp3" type="audio/mp3">
+    </audio>
+    
+    <div id="container" class="container  border">
         <div class="title border">
             <h1>Hola mi llamo is Josan</h1>
         </div>
 
-        <div class="josan-container flex border">
+        <div id="josan-container" class="josan-container flex border">
             
-            <div id="josan" class="border">
-                <img class="border" src="./yo-con-lentes-removebg-preview (2).png" alt="">
+            <div id="josan" class="border flex">
+                <img id="josan-img" class="border" src="./yo-con-lentes-removebg-preview (2).png" alt="">
             </div>
-
-            <button class="border" id="josan-button">click me</button>
 
         </div>
 
+        <button class="border" id="josan-button">click me</button>
+        <script src="./josan.js" async></script>
     </div>
 </body>
 </html>

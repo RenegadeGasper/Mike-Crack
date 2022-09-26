@@ -1,4 +1,3 @@
-
 html,
 body {
     margin: 0;
@@ -14,9 +13,9 @@ body {
     display: flex;
 }
 
-.border {
+/* .border {
     border: 1px solid blue;
-}
+} */
 
 .container {
     background-color: black;
@@ -37,22 +36,29 @@ body {
     height: 80%;
     margin: 0 auto;
     align-items: center;
+    display: none;
 }
 
 #josan {
-    /* margin: 0 auto; */
-    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    height: 80vh;
+    width: 80%;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-#josan img {
-    height: 15%;
+#josan-img {
+    height: 65%;
     width: auto;
     margin: 0 auto;
 }
 
 #josan-button {
     height: 2rem;
-    width: fit-content;
+    width: 30%;
+    margin: 0 auto;
+    display: block;
 }
 
 h1 {
@@ -93,3 +99,19 @@ h1 {
     display: none;
     margin: 0 auto;
 }
+
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to { 
+      transform: rotate(360deg);
+    }
+  }
+  
+  #josan-img {
+      animation-name:            rotate; 
+      animation-duration:        1.5s; 
+      animation-iteration-count: infinite;
+      animation-timing-function: linear;
+  }

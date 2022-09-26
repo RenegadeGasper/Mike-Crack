@@ -93,11 +93,16 @@ span{
 }
 
 .slideshow-container{
-    background-image: url(./colorful_background.png);
     right: 100%;
 
 }
 .mySlides1 fade{
     right: 150%;
 }
-
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+    margin-right: 15%;
+    align-self: center;
+}

@@ -61,19 +61,19 @@
         <div class="mySlides fade">
           <div class="numbertext"> 1 / 3</div>
           <img src="DeviousTimes.jpg" style="border: 3px solid black; width:90%">
-          <div class="text"> Me and my cousin Althea </div>
+          <div class="text">   Me and my cousin Althea   </div>
         </div>
         
         <div class="mySlides fade" >
           <div class="numbertext"> 2 / 3</div>
           <img src="RushHour.jpg" style=" border: 3px solid red; width:90%">
-          <div class="text">THE RUSH HOUR! My friend Cliffon and I!!</div>
+          <div class="text">   THE RUSH HOUR! My friend Cliffon and I!!</div>
         </div>
         
         <div class="mySlides fade">
           <div class="numbertext"> 3 / 3</div>
           <img src="HSActs.jpg" style= "border: 3px solid white; width:90%">
-          <div class="text">Graduation pics with my teacher and best friends</div>
+          <div class="text">  Graduation pics with my teacher and best friends  </div>
         </div>
     </div>
     <div style="text-align:center">
@@ -113,19 +113,19 @@
     
             <div class="mySlides1 fade">
               <div class="numbertext"> 1 / 3</div>
-              <img src="Arsea.png" style="border: 3px solid blue; width:90%;">
+              <img src="Arsea.png" style="border: 3px solid blue; width:95%;">
               <div class="text"> The Cryophoenix, Arsea </div>
             </div>
             
             <div class="mySlides1 fade" >
               <div class="numbertext"> 2 / 3</div>
-              <img src="TheMeeting.png" style=" border: 3px solid black; width:90%">
+              <img src="TheMeeting.png" style=" border: 3px solid black; width:95%">
               <div class="text">Imagining a real world thing...</div>
             </div>
             
             <div class="mySlides1 fade">
               <div class="numbertext"> 3 / 3</div>
-              <img src="Chase.png" style= "border: 3px solid white; width:90%">
+              <img src="Chase.png" style= "border: 3px solid white; width:95%">
               <div class="text"> THE GREAT BONE CHASE </div>
             </div>
             
@@ -144,16 +144,16 @@
         showSlides();
     
         function showSlides() {
-            var i;
+            var j;
             var slides = document.getElementsByClassName("mySlides1");
             var dots = document.getElementsByClassName("dot1");
-            for (i = 0; i < slides.length; i++) {
-               slides[i].style.display = "none";  
+            for (j = 0; j < slides.length; j++) {
+               slides[j].style.display = "none";  
             }
             slideIndex++;
             if (slideIndex > slides.length) {slideIndex = 1}    
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
+            for (j = 0; j < dots.length; i++) {
+                dots[j].className = dots[j].className.replace(" active", "");
             }
             slides[slideIndex-1].style.display = "block";  
             dots[slideIndex-1].className += " active";

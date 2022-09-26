@@ -1,13 +1,13 @@
-const bButton = document.getElementById("b");
-const bFrame = document.getElementById("b-iframe");
+const bbButton = document.getElementById("bb");
+const bbFrame = document.getElementById("bb-iframe");
 
-bButton.addEventListener('click', () => {
+bbButton.addEventListener('click', () => {
 
-    if (bFrame.style.display == "block") {
-        bFrame.style.display = "none";
+    if (bbFrame.style.display == "block") {
+        bbFrame.style.display = "none";
     } else {
-        bFrame.style.display = "block";
-        bButton.style.display = "none";
+        bbFrame.style.display = "block";
+        bbButton.style.display = "none";
     }
 
 });

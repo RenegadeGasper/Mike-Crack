@@ -1,32 +1,42 @@
-#b-button {
+:root {
+    --red: red;
+}
+
+.flex {
+    display: flex;
+}
+
+#bb-button {
     background-color: var(--red);
+    border: white;
     border-radius: 15px;
     color: white;
     padding: 0.5rem;
 }
 
-#b-button * {
+#bb-button * {
     color: white;
 }
 
-#b-container {
-    width: 80%;
+#bb-container {
+    width: 50%;
     display: flex;
     margin: 4rem auto 0 auto;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    margin-bottom: 10%;
 }
 
-#b {
+#bb {
     background-color: var(--red);
     color: white;
     font-size: xx-large;
     padding: 1rem;
+    border: white;
     border-radius: 10px;
 }
 
-#b-container iframe {
+#bb-container iframe {
     display: none;
     margin: 0 auto;
 }

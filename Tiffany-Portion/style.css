@@ -1,0 +1,14 @@
+.my_photo{
+    position: absolute;
+    right: 0%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left;
+
+}
+.my_photo{
+    height: 70%;
+    bottom: 0;
+    right: 50%;
+    margin-top: 50%;
+}

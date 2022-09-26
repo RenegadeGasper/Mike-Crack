@@ -29,19 +29,35 @@ h1
     margin: auto
   } 
   
-  .navi a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 50px;
-    text-decoration: none;
-  }
+.navi a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 50px;
+  text-decoration: none;
+}
 
 
-  .flex-container {
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    
-  }
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-right: 15%;
+  align-self: center;
+}
+
+.pad{
+  padding: 30px;
+}
+
+
+h2{
+  text-align: center;
+}
+
+
+.shadow{
+  box-shadow: 10px 10px 10px 5px rgb(137, 200, 219);
+}
+  

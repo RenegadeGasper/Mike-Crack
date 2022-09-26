@@ -92,3 +92,12 @@ span{
 
 }
 
+.slideshow-container{
+    background-image: url(./colorful_background.png);
+    right: 100%;
+
+}
+.mySlides1 fade{
+    right: 150%;
+}
+

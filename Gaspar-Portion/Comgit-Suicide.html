@@ -60,7 +60,7 @@
 
         <div class="mySlides fade">
           <div class="numbertext"> 1 / 3</div>
-          <img src="DeviousTimes.jpg" style="border: 3px solid black; width:90%; padding-left: 10px;">
+          <img src="DeviousTimes.jpg" style="border: 3px solid black; width:90%">
           <div class="text"> Me and my cousin Althea </div>
         </div>
         
@@ -75,19 +75,78 @@
           <img src="HSActs.jpg" style= "border: 3px solid white; width:90%">
           <div class="text">Graduation pics with my teacher and best friends</div>
         </div>
-        
-        </div>
-        <br>
+    </div>
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
 </div>
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+           slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+    </script>
+
+    <div class="pad"></div>
+
+
+    <div class="flex-container shadow">
+        <div class="slideshow-container" style="align-self: center;">
+            <h2> My artwork! </h2>
+    
+            <div class="mySlides1 fade">
+              <div class="numbertext"> 1 / 3</div>
+              <img src="Arsea.png" style="border: 3px solid blue; width:90%;">
+              <div class="text"> The Cryophoenix, Arsea </div>
+            </div>
+            
+            <div class="mySlides1 fade" >
+              <div class="numbertext"> 2 / 3</div>
+              <img src="TheMeeting.png" style=" border: 3px solid black; width:90%">
+              <div class="text">Imagining a real world thing...</div>
+            </div>
+            
+            <div class="mySlides1 fade">
+              <div class="numbertext"> 3 / 3</div>
+              <img src="Chase.png" style= "border: 3px solid white; width:90%">
+              <div class="text"> THE GREAT BONE CHASE </div>
+            </div>
+            
+            </div>   
+        <div style="text-align:center">
+            <span class="dot1"></span>
+            <span class="dot1"></span>
+            <span class="dot1"></span> 
+  </div>
+  
+    </div>
+    
         
-        <script>
+    <script>
         var slideIndex = 0;
         showSlides();
     
         function showSlides() {
             var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
+            var slides = document.getElementsByClassName("mySlides1");
+            var dots = document.getElementsByClassName("dot1");
             for (i = 0; i < slides.length; i++) {
                slides[i].style.display = "none";  
             }
@@ -102,36 +161,6 @@
         }
         </script>
           
-
-    <div class="pad"></div>
-
-
-    <div class="flex-container shadow">
-        <div class="slideshow-container" style="align-self: center;">
-            <h2> My artwork! </h2>
-    
-            <div class="mySlides fade">
-              <div class="numbertext"> 1 / 3</div>
-              <img src="Arsea.png" style="border: 3px solid blue; width:90%; padding-left: 10px;">
-              <div class="text"> The Cryophoenix, Arsea </div>
-            </div>
-            
-            <div class="mySlides fade" >
-              <div class="numbertext"> 2 / 3</div>
-              <img src="TheMeeting.png" style=" border: 3px solid black; width:90%">
-              <div class="text">Imagining a real world thing...</div>
-            </div>
-            
-            <div class="mySlides fade">
-              <div class="numbertext"> 3 / 3</div>
-              <img src="Chase.png" style= "border: 3px solid white; width:90%">
-              <div class="text"> THE GREAT BONE CHASE </div>
-            </div>
-            
-            </div>
-            <br>
-    </div>
-    </div>
 
 
     

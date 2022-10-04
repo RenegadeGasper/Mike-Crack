@@ -7,10 +7,11 @@
 
 }
 
-.text-overlay {
+body {
     color: white;
     font-weight: bolder;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkolivegreen;
   }
 
   
@@ -30,5 +31,25 @@
     display: block;
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 50px;
+    padding: 10px 20px;
     text-decoration: none;
+  }
+
+  
+.flex-container {
+  float:left;
+  flex-direction: column;
+  margin-left: 8%;
+  width:40%;
+}
+
+.flex-row {
+  display: flex;
+  border: 1px solid red;
+  float: center;
+}
+
+.pad{
+  padding: 50px;
+}
+

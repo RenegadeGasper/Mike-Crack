@@ -9,9 +9,8 @@
     <title>Document</title>
   </head>
   
-  <body style="background-color: darkolivegreen">
-    <div class="text-overlay">
-      <h1 style="position:center">Tiffany's Twisted Tavern </h1> 
+  <body>
+      <h1 style="text-align:center">Tiffany's Twisted Tavern </h1> 
       <div class="navi">
         <a href = "https://renegadegasper.github.io/Mike-Crack-/">Menu</a>
         <a href = "https://renegadegasper.github.io/Mike-Crack-/Gaspar-Portion/Comgit-Suicide.html">Gaspar</a>
@@ -19,28 +18,83 @@
         <a href = "https://renegadegasper.github.io/Mike-Crack-/Josan-portion/fish.html">Josan</a>
     </div> 
 
+    <div class="flex-container" style ="border: 1px solid black;">
       <p>
-        I am a 18 and in the year up program <br />
+        My name is Tiffany Lovely, you can also call me Cookie!<br>
+        18 years old<br>
+        Programming Track<br>
         I have had a few big acomplishmets i my life
       </p>
-      <li>Im a pulished author
-        Gaspar is the better sibling of us. 
-        My mother adopted him like she was her own.
-      </li>
-      <li>
-        graduated high school despite my school jiping the seniors out of being
-        able to graduate
-      </li>
+      <li>Im a pulished author</li>
+      <li>graduated high school despite my school
+        jiping the seniors out of being able to graduate</li>
       <li>Ive won a rootics compotision</li>
+      <li>Brian and Jun got adopted by my mother but Jun is 
+        still the best sibling ever</li>
+      <p>I am a giant Xbox fan and have been playing since I was 11 <br></p>
       <p>
-        I am a giant xbox fan and have been playing since i was 11 <br />
-        <img src="./xboxprofile.png" class="my_photo" />
+        One of my favorite games to play is minecraft 
+        Add like 2 more lines <br>
+        . <br>
+        . <br>
+        . <br>
       </p>
-      <p>
-        one of my favoirte games to play is minecraft <br />
-        <img src="./pixelart1.png" alt="" />
-        <img src="./pixelart2.png" alt="" />
-      </p>
+      </div>
+      <div class ="flex-row">
+        <div class="flex-container">
+          <div class="slideshow-container" style="align-self: center;">
+              <h2> My pictures </h2>
+      
+              <div class="mySlides fade">
+                <div class="numbertext"> 1 / 3</div>
+                <img src="./pixelart1.png" style="border: 3px solid black; width:90%">
+                <div class="text">   Me and my cousin Althea   </div>
+              </div>
+              
+              <div class="mySlides fade" >
+                <div class="numbertext"> 2 / 3</div>
+                <img src="./pixelart2.png" style=" border: 3px solid red; width:90%">
+                <div class="text">   THE RUSH HOUR! My friend Cliffon and I!!</div>
+              </div>
+              
+              <div class="mySlides fade">
+                <div class="numbertext"> 3 / 3</div>
+                <img src="./xboxprofile.png" style= "border: 3px solid white; width:90%">
+                <div class="text">  Graduation pics with my teacher and best friends  </div>
+              </div>
+          </div>
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+      </div>
+      <script> 
+          var slideIndex = 0;
+          showSlides();
+      
+          function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                 slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+          }
+          </script>
+      </div>
+    <div class="pad"> </div>
+    
+    <div class ="flex-container">
+      <p> Gaspar's the best</p>
     </div>
   </body>
 </html>

@@ -3,6 +3,11 @@ body{
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* This is used for centering an image
+    left: 0;
+    right: 0;
+    margin: auto */
+    
 h1 
 {
     text-align: center;

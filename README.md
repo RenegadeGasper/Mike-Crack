@@ -17,5 +17,5 @@ This Webpage consisted of 5 different pages
 
 There was 3 different types of rules that we ALL had to (kind of) abide
 1. Reference each Others Pages and the main page
-2. Explain yourself, who are you?
+2. Explain yourself, who are you? and what do you want to show about yourself 
 3. Have fun! (You have to, please)

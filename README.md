@@ -1,5 +1,5 @@
 # Mike-Crack
-Creating the best webpage with a group of friends in Fall 2022
+Creating the best webpage with a group of friends in Fall 2022 <br> 
 Writted by Gaspar-Jun Efondo <br> 
 Kudos to Brian Nguyen, Tiffany Lovely, and Josan Sanchez <br> 
 Warning: Jun's Webpage is filled with parodies and offensive language.  <br> 

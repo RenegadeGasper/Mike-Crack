@@ -1,7 +1,7 @@
 # Mike-Crack
 Creating the best webpage with a group of friends in Fall 2022 <br> 
-Writted by Gaspar-Jun Efondo <br> 
-Kudos to Brian Nguyen, Tiffany Lovely, and Josan Sanchez <br> 
+Readme written by Gaspar-Jun Efondo <br> 
+Kudos to Brian Nguyen, Tiffany Lovely, and Josan Sanchez as fellow programmers learning to create a joint personal website <br> 
 Warning: Jun's Webpage is filled with parodies and offensive language.  <br> 
 <br> Enter on your accord.
 

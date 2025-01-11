@@ -53,3 +53,37 @@ body {
   padding: 50px;
 }
 
+/* ------------------------------------------*/
+.dropdownbutton{
+  background-color: rgb(70, 146, 88);
+  color: white;
+  /*padding:13px;
+  border:none;
+  cursor: pointer;
+  */
+  cursor: pointer;
+}
+
+
+.dropdown-menu{
+  display: none;
+  position:absolute;
+  background-color: lightblue;
+  min-width: 150px;
+}
+
+.dropdown-menu a {
+  color:black;
+  text-decoration:none;
+  display: block;
+}
+
+.dropdown-menu a:hover{
+  background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+  display:block;
+
+}
+/* ------------------------------------------*/

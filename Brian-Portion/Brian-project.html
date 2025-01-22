@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="body">
-        <div class="hero">
+    <div class="row">
+        <div class="column">
+            <div class="navi">
             <nav>
                 <img src="soysauce.png" class="Logo">
                 <ul>
@@ -20,6 +21,7 @@
                     <li><a href = "https://renegadegasper.github.io/Mike-Crack/Josan-portion/fish.html">Josan</a></li>
                 </ul>
             </nav>
+        </div>
                 <div class="flex">
                     <div class="detel">
                         <h1>I'm Brian <span>Nguyen</span></h1>
@@ -37,86 +39,86 @@
                     </div>
                 </div>
         </div>
+        <div class="column">
+            <script> 
+                var slideIndex = 0;
+                showSlides();
+            
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                       slides[i].style.display = "none";  
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {slideIndex = 1}    
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex-1].style.display = "block";  
+                    dots[slideIndex-1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+                </script>
+            
+                <div class="pad"></div>
+            
+            
+                <div class="flex-container shadow">
+                    <div class="slideshow-container" style="align-self: center;">
+                        <h2> Photos of my life! </h2>
+                
+                        <div class="mySlides1 fade">
+                          <div class="numbertext"> 1 / 3</div>
+                          <img src="prescott.jpg" style="border: 3px solid blue; width:40%;">
+                          <div class="text"> Prescott, AZ</div>
+                        </div>
+                        
+                        <div class="mySlides1 fade" >
+                          <div class="numbertext"> 2 / 3</div>
+                          <img src="trade-school.jpg" style=" border: 3px solid black; width:35%">
+                          <div class="text">San Diego, CA</div>
+                        </div>
+                        
+                        <div class="mySlides1 fade">
+                          <div class="numbertext"> 3 / 3</div>
+                          <img src="Florida.jpg" style= "border: 3px solid white; width:40%">
+                          <div class="text">Miami, FL</div>
+                        
+        
+                        </div>   
+                    <div style="text-align:center">
+                        <span class="dot1"></span>
+                        <span class="dot1"></span>
+                        <span class="dot1"></span> 
+              </div>
+              
+                </div>
+        
+                <script>
+                    var slidein = 0;
+                    showSlide();
+                
+                    function showSlide() {
+                        var j;
+                        var slide = document.getElementsByClassName("mySlides1");
+                        var dot = document.getElementsByClassName("dot1");
+                        for (j = 0; j < slide.length; j++) {
+                           slide[j].style.display = "none";  
+                        }
+                        slidein++;
+                        if (slidein > slide.length) {slidein = 1}    
+                        for (j = 0; j < dot.length; j++) {
+                            dot[j].className = dot[j].className.replace(" active", "");
+                        }
+                        slide[slidein-1].style.display = "block";  
+                        dot[slidein-1].className += " active";
+                        setTimeout(showSlide, 2000); // Change image every 2 seconds
+                    }
+                    </script>
+                </div>
     </div>
-<div class="hero">
-    <script> 
-        var slideIndex = 0;
-        showSlides();
-    
-        function showSlides() {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-            for (i = 0; i < slides.length; i++) {
-               slides[i].style.display = "none";  
-            }
-            slideIndex++;
-            if (slideIndex > slides.length) {slideIndex = 1}    
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
-        }
-        </script>
-    
-        <div class="pad"></div>
-    
-    
-        <div class="flex-container shadow">
-            <div class="slideshow-container" style="align-self: center;">
-                <h2> Photos of my life! </h2>
-        
-                <div class="mySlides1 fade">
-                  <div class="numbertext"> 1 / 3</div>
-                  <img src="prescott.jpg" style="border: 3px solid blue; width:40%;">
-                  <div class="text"> Prescott, AZ</div>
-                </div>
-                
-                <div class="mySlides1 fade" >
-                  <div class="numbertext"> 2 / 3</div>
-                  <img src="trade-school.jpg" style=" border: 3px solid black; width:35%">
-                  <div class="text">San Diego, CA</div>
-                </div>
-                
-                <div class="mySlides1 fade">
-                  <div class="numbertext"> 3 / 3</div>
-                  <img src="Florida.jpg" style= "border: 3px solid white; width:40%">
-                  <div class="text">Miami, FL</div>
-                
-
-                </div>   
-            <div style="text-align:center">
-                <span class="dot1"></span>
-                <span class="dot1"></span>
-                <span class="dot1"></span> 
-      </div>
-      
-        </div>
-
-        <script>
-            var slidein = 0;
-            showSlide();
-        
-            function showSlide() {
-                var j;
-                var slide = document.getElementsByClassName("mySlides1");
-                var dot = document.getElementsByClassName("dot1");
-                for (j = 0; j < slide.length; j++) {
-                   slide[j].style.display = "none";  
-                }
-                slidein++;
-                if (slidein > slide.length) {slidein = 1}    
-                for (j = 0; j < dot.length; j++) {
-                    dot[j].className = dot[j].className.replace(" active", "");
-                }
-                slide[slidein-1].style.display = "block";  
-                dot[slidein-1].className += " active";
-                setTimeout(showSlide, 2000); // Change image every 2 seconds
-            }
-            </script>
-        </div>
 </div>
 </body>
 </html>

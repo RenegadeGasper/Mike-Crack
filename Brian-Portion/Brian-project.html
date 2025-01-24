@@ -105,4 +105,20 @@
                         var slide = document.getElementsByClassName("mySlides1");
                         var dot = document.getElementsByClassName("dot1");
                         for (j = 0; j < slide.length; j++) {
-                         
+                           slide[j].style.display = "none";  
+                        }
+                        slidein++;
+                        if (slidein > slide.length) {slidein = 1}    
+                        for (j = 0; j < dot.length; j++) {
+                            dot[j].className = dot[j].className.replace(" active", "");
+                        }
+                        slide[slidein-1].style.display = "block";  
+                        dot[slidein-1].className += " active";
+                        setTimeout(showSlide, 2000); // Change image every 2 seconds
+                    }
+                    </script>
+                </div>
+    </div>
+</div>
+</body>
+</html>
